@@ -1,0 +1,5 @@
+<!--pages/banner/banner.wxml-->
+<view class="w_banner">
+  <w-banner1 />
+  <w-banner2 />
+</view>

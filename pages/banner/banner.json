@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-banner1":"/components/banner/banner1/banner1",
+    "w-banner2":"/components/banner/banner2/banner2"
+  }
+}

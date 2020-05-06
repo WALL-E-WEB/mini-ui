@@ -1,0 +1,5 @@
+<!--components/tag/tag.wxml-->
+<view class="w_tag" bindtap="onTagTo">
+<text class="w_tag__title">{{title}}</text>
+<text class="w_tag__text">></text>
+</view>

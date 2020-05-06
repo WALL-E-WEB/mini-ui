@@ -1,0 +1,33 @@
+/* components/banner/banner2/banner2.wxss */
+.w-banner2{
+  background-color: blanchedalmond;
+  height: 600rpx;
+}
+.w_banner-1__item{
+  box-sizing: border-box;
+  background-color: rgb(191, 191, 201);
+  border-radius: 8rpx;
+  /* padding: 20rpx; */
+}
+
+.w_banner-1__item__list{
+  border-radius: 8rpx;
+  height: 100%;
+  width: 100%;
+  background-color: rebeccapurple;
+  transform: scale(.9);
+  text-align: center;
+  color: aliceblue;
+}
+.w_banner-1__item__list.active{
+  transform: scale(1);
+}
+.w_banner-1__item__list.active.cancelActive{
+  transform: scale(.9);
+}
+/* .w_banner-1__item__list.active.lastClass{
+  transform: scale(.9);
+} */
+.w_banner-1__item__list.last.lastActive{
+  transform: scale(1);
+}

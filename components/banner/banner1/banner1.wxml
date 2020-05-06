@@ -1,0 +1,11 @@
+<!--components/banner/banner1/banner1.wxml-->
+<swiper class="w_banner-1" 
+  indicator-dots="true"
+  indicator-color="red"
+  indicator-active-color="#fff"
+  autoplay="true"
+  current="index">
+  <swiper-item class="w_banner-1__item"> <view class="w_banner-1__item__img"><image src="../../../static/image/banner.jpg" mode="heightFix"></image></view></swiper-item>
+  <swiper-item class="w_banner-1__item"> <view class="w_banner-1__item__img"><image src="../../../static/image/banner.jpg" mode="heightFix"></image></view></swiper-item>
+  <swiper-item class="w_banner-1__item"> <view class="w_banner-1__item__img"><image src="../../../static/image/banner.jpg" mode="heightFix"></image></view></swiper-item>
+</swiper>

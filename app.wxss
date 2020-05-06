@@ -1,0 +1,7 @@
+/**app.wxss**/
+ view{
+   box-sizing: border-box;
+ }
+ view,text{
+   color: rgb(72, 71, 82);
+ }

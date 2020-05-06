@@ -1,0 +1,19 @@
+/* components/tag/tag.wxss */
+.w_tag{
+  width: 100%;
+  height: 80rpx;
+  border-radius: 8rpx;
+  padding:0 20rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.w_tag__title{
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.w_tag__text{
+  color: #ccc;
+}
