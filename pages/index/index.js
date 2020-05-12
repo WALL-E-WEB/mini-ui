@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+import {WToast} from '../../components/toast/toat'
 Page({
   data: {
     motto: 'Hello World',
@@ -50,5 +50,14 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onBtn(){
+    console.log('aa')
+    // WToast()
+    WToast.toastShow('我们')
+  },
+  onBtn2(){
+    // console.log(this)
+    console.log(WToast.toastHide('我们'))
   }
 })

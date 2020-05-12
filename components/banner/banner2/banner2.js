@@ -47,6 +47,7 @@ Component({
         scrollOffset: true
       }).exec(res => {
         console.log('dom', res)
+        // pagewidth的40% 最佳
         if(res[0].left<150){
           _this.setData({
             lastActive:'active'

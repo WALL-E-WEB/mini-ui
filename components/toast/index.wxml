@@ -1,0 +1,10 @@
+<!--components/toast/index.wxml-->
+<view class="w-toast" wx:if="{{show}}">
+  <view class="w-toast_warp {{type}}">
+    <view class="w-toast_success">
+      <view class="success_top"></view>
+      <view class="success_bot"></view>
+    </view>
+    <view class="w-toast_success-right">{{text}}</view>
+  </view>
+</view>

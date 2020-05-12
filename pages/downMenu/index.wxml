@@ -1,0 +1,5 @@
+<!--pages/downMenu/index.wxml-->
+<view class="box">
+<downMenu />
+</view>
+<downMenu />

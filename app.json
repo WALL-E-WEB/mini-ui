@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/banner/banner"
+    "pages/banner/banner",
+    "pages/toast/toast",
+    "pages/downMenu/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

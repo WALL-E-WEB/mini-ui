@@ -1,4 +1,5 @@
 //app.js
+import {WToast} from './components/toast/toat'
 App({
   onLaunch: function () {
     // 展示本地存储能力

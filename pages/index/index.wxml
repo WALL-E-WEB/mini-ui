@@ -1,4 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <Tag />
+  <Tag title="Banner" />
+  <Tag title="Toast" path="/pages/toast/toast"/>
+  <Tag title="downMenu" path="/pages/downMenu/index"/>
 </view>

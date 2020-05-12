@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": false,
 		"enhance": true,
 		"postcss": true,
@@ -23,11 +23,13 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"bundle": true
+		"bundle": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.0",
-	"appid": "wx89f372fd7b87ee0c",
+	"appid": "wx6c6fda00f99b1b80",
 	"projectname": "mini-ui",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -63,6 +65,20 @@
 					"id": -1,
 					"name": "pages/banner/banner",
 					"pathName": "pages/banner/banner",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/toast/toast",
+					"pathName": "pages/toast/toast",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/downMenu/index",
+					"pathName": "pages/downMenu/index",
 					"scene": null
 				}
 			]

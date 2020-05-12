@@ -1,0 +1,74 @@
+/* components/downMenu/index.wxss */
+page{
+  background-color: #Fff;
+}
+/* .box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#ccc;
+  z-index: -2;
+} */
+.downMenu{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: 40px;
+  box-shadow: 0 0 4px 0 rgb(199, 199, 199,.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #Fff;
+  /* overflow: hidden; */
+  z-index: 2;
+}
+.downMenu__item{
+  flex: 1;
+  text-align: center;
+  z-index: 6;
+}
+.downMenu__select-group{
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  left: 0;
+  background-color: #Fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  z-index: 5;
+}
+/* .downMenu__select-group::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vh;
+  z-index: -4;
+  background-color: rgba(192, 34, 34, 0.3);
+} */
+.popup2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vh;
+  z-index: -4;
+  background-color: rgba(192, 34, 34, 0.3);
+}
+.popup{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(226, 226, 226, .6);
+  height: 100%;
+  width: 100%;
+
+}
+/* page{
+  overflow: hidden;
+} */

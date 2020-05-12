@@ -1,1 +1,4 @@
 /* pages/banner/banner.wxss */
+.banner__slot{
+  background-color: blue;
+}

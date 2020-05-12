@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-    "Tag":"/components/tag/tag",
     "Toast":"/components/toast/index"
   }
 }

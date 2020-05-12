@@ -14,6 +14,10 @@ Component({
     path:{
       type:String,
       value:''
+    },
+    path:{
+      type:String,
+      value:'/pages/banner/banner'
     }
   },
 

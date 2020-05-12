@@ -8,11 +8,13 @@
   bindchange="onChange"
   current="{{currentIndex}}"
   bindtransition="onTransition"
-
   >
 
   <block wx:for="{{5}}">
-    <swiper-item  class="w_banner-1__item" id="{{index===4?'switem':''}}"><view class="w_banner-1__item__list last  {{index===currentIndex?'active':''}} {{index===4?lastActive:''}} {{index===3&&lastActive?'cancelActive':''}}" >{{index}}</view> </swiper-item>
+    <swiper-item  class="w_banner-1__item" id="{{index===4?'switem':''}}">
+    <view class="w_banner-1__item__list last  {{index===currentIndex?'active':''}} {{index===4?lastActive:''}} {{index===3&&lastActive?'cancelActive':''}}" >
+    {{index}}
+    </view> </swiper-item>
     <!-- {{index===4?lastClass:''}} {{index===4?'last':''}} -->
   </block> 
 </swiper>

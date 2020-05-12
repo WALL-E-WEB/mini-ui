@@ -1,0 +1,6 @@
+<!--pages/toast/toast.wxml-->
+<view class="wtoastbox">
+<Toast class="wtoast" />
+<button bindtap="btn" style="margin-bottom:20px"> success</button>
+<button bindtap="btn2"> warning</button>
+</view>
