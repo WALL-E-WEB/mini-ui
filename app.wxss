@@ -5,3 +5,7 @@
  view,text{
    color: rgb(72, 71, 82);
  }
+ page{
+   height: 100%;
+   width: 100%;
+ }

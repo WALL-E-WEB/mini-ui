@@ -79,6 +79,13 @@
 					"id": -1,
 					"name": "pages/downMenu/index",
 					"pathName": "pages/downMenu/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/map/map",
+					"pathName": "pages/map/map",
 					"scene": null
 				}
 			]

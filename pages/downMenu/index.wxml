@@ -1,5 +1,6 @@
 <!--pages/downMenu/index.wxml-->
-<view class="box">
-<downMenu />
+<view class="box" id="box" bindtap="btn">
+ddd
+<!-- <downMenu /> -->
 </view>
 <downMenu />

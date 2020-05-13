@@ -1,0 +1,12 @@
+<!--components/map/map.wxml-->
+<map class="wmap" 
+longitude="{{longitude}}" 
+circle="{{circle}}" 
+latitude="{{latitude}}" 
+show-compass="{{true}}"
+show-location="true"
+></map>
+<view class="row">
+<text>是否获取当前定位</text>
+<switch type="switch"  bindchange="switchChange"/>
+</view>
