@@ -11,3 +11,6 @@
   border-bottom: 1px solid #ccc;
   padding: 0 10px;
 }
+.slider{
+  flex: 1;
+}

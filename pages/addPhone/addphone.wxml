@@ -1,0 +1,4 @@
+<!--pages/addPhone/addphone.wxml-->
+<view>
+<AddPhone />
+</view>

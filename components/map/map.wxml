@@ -5,8 +5,19 @@ circle="{{circle}}"
 latitude="{{latitude}}" 
 show-compass="{{true}}"
 show-location="true"
+scale="{{scale}}"
 ></map>
 <view class="row">
 <text>是否获取当前定位</text>
 <switch type="switch"  bindchange="switchChange"/>
+</view>
+<view class="row">
+<text>地址:</text>
+<input value="{{address.province}}{{address.city}}{{address.district}}{{address.name}}">aaa</input>
+<view bindtap="chooseAddress">选择地址></view>
+</view>
+<view class="row">
+<text>地图缩放:</text>
+<slider class="slider" min="{{3}}"  max="{{20}}" step="{{1}}" color="#ccc" value="{{scale}}" bindchange="onSlace"/>
+<text>{{scale}}</text>
 </view>

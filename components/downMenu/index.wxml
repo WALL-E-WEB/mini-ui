@@ -1,7 +1,6 @@
 <!--components/downMenu/index.wxml-->
 <view class="popup" wx:if="{{show}}" catch:touchmove="noop"></view>
 <view class="downMenu" id="box" bin="ddd">
-aa
   <view class="downMenu__item" wx:for="{{menu}}" bindtap="onMenu">
     {{item}}
   </view>

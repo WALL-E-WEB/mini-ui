@@ -1,0 +1,15 @@
+<!--components/addPhone/addPhone.wxml-->
+<view bindtap="btn">添加联系人</view>
+<form bindsubmit="onSubmit">
+  <view class="f-r-r">
+    <text>name</text>
+    <input class="f1" name="name" value="ooo"></input>
+  </view>
+  <view class="f-r-r">
+    <text>age</text>
+    <input class="f1" name="age" value="ooo"></input>
+  </view>
+   <view class="f-r-r">
+    <button class="f1" type="primary" form-type="submit">sss</button>
+  </view>
+</form>

@@ -1,0 +1,8 @@
+/* components/addPhone/addPhone.wxss */
+.f-r-r{
+  display: flex;
+  justify-content: space-between;
+}
+.f1{
+  flex: 1;
+}

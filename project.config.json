@@ -29,7 +29,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.0",
-	"appid": "wx6c6fda00f99b1b80",
+	"appid": "wxf6a90e660f4a5fb4",
 	"projectname": "mini-ui",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -86,6 +86,13 @@
 					"id": -1,
 					"name": "pages/map/map",
 					"pathName": "pages/map/map",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addPhone/addphone",
+					"pathName": "pages/addPhone/addphone",
 					"scene": null
 				}
 			]
